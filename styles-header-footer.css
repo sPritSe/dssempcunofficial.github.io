@@ -1,0 +1,131 @@
+/* Custom Fonts */
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('fonts/Gotham-Book.woff2') format('woff2'),
+       url('fonts/Gotham-Book.woff') format('woff'),
+       url('fonts/Gotham-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Header & Navbar Styles */
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+.custom-header {
+  background-color: #14425D;
+  font-family: 'Gotham Book', sans-serif;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.navbar-brand {
+  margin: 0;
+}
+.navbar-nav {
+  margin: 0;
+}
+.navbar .nav-link, .navbar .dropdown-menu .dropdown-item {
+  color: white;
+}
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+  background-color: #14425D;
+  border: none;
+}
+.navbar-dark .navbar-nav .nav-item.dropdown:hover .dropdown-item {
+  color: white;
+}
+.navbar-dark .navbar-nav .nav-item.dropdown:hover .dropdown-item:hover {
+  background-color: #295E7D;
+  color: #ccc;
+}
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu {
+  display: none;
+}
+.dropdown-menu {
+  margin-top: 0;
+}
+.header-logo img {
+  margin-left: 5px;
+}
+.header-navbar {
+  margin-right: 5px;
+}
+.dropdown-menu {
+  z-index: 1050;
+}
+
+/* Footer Styles */
+footer {
+  background-color: black;
+  color: white;
+  font-family: 'Gotham Book', sans-serif;
+}
+footer a {
+  font-size: 14px
+}
+footer h5 {
+  font-family: 'Gotham Book', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer-column {
+  text-align: center;
+}
+.footer-column img {
+  max-width: 100%;
+  height: auto;
+}
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+
+/* Responsiveness Styles */
+@media (max-width: 576px) { /* Small screens only */
+  .large-logo {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) { /* Medium to XXL screens */
+  .small-logo {
+    display: none;
+  }
+  .navbar .nav-link, .navbar .dropdown-menu .dropdown-item {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1200px) { /* Large to XXL screens) */
+  .navbar .nav-link, .navbar .dropdown-menu .dropdown-item {
+    font-size: 14px;
+  }
+}
+
+/* Other Styles */
+a {
+  text-decoration: none;
+  color: white;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+}

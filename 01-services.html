@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services</title> <!--Title ng page, don't forget na baguhin to-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles-header-footer.css" rel="stylesheet">
+  <!-- #2E75A3 -->
+  <style>
+    /* Custom Fonts */
+    @font-face {
+    font-family: 'Futura Bold';
+    src: url('fonts/Futura-Bold.woff2') format('woff2'),
+      url('fonts/Futura-Bold.woff') format('woff'),
+      url('fonts/Futura-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    .img-container {
+      margin: 0;
+      padding: 0;
+    }
+    .img-content {
+      height:auto;
+      width:100%;
+      object-fit:fill;
+      margin: 0;
+      padding: 0;
+    }
+    .text-bg-1 {
+      background-color: #2E75A3;
+    }
+    .text-bg-2 {
+      background-color: #7fbce6;
+    }
+    .text-futura {
+      font-family: 'Futura Bold' sans-serif;
+    }
+    .text-gotham {
+      font-family: 'Gotham Book' sans-serif;
+    }
+    .text-padding {
+      padding: 20px;
+    }
+
+
+    /* Responsiveness Styles */
+    @media (min-width: 576px) { /* Small to large screens */
+      .banner-img {
+        width: 100%
+      }
+    }
+
+    @media (min-width: 576px) { /* Medium to XXL screens */
+      .banner-img {
+        width: 100%
+      }
+    }
+
+    @media (min-width: 1200px) { /* Large to XXL screens) */
+      .banner-img {
+        width: 60%
+      }
+    }
+
+    /* Other Styles */
+    .banner-bg {
+      background-color: black;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg custom-header navbar-dark sticky-top">
+    <div class="container header-content">
+      <div class="navbar-brand header-logo">
+        <a href="00-home.html">
+          <img src="images/logo-small.png" height="50px" width="auto" class="large-logo d-none d-sm-inline" alt="Large Logo">
+          <img src="images/logo-smaller.png" height="50px" width="auto" class="small-logo d-inline d-sm-none" alt="Small Logo">
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse header-navbar" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="00-home.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="01-services.html">SERVICES</a>
+          </li>
+          <li class="nav-item dropdown" id="navbarDropdown" data-bs-auto-close="outside">
+            <a class="nav-link dropdown-toggle" href="02-company-profile.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              ABOUT US
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="02-company-profile.html">COMPANY PROFILE</a>
+              <a class="dropdown-item" href="03-history.html">OUR HISTORY</a>
+              <a class="dropdown-item" href="04-officers-staff.html">OFFICERS & STAFFS</a>
+              <a class="dropdown-item" href="05-awards-recognitions.html">AWARDS & RECOGNITIONS</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="06-busines-opportunities.html">BUSINESS OPPORTUNITIES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="07-csr.html">CSR</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="08-contact-us">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container-fluid">
+    <div class="row">
+      <div class="col-12 banner-bg">
+        <img src="images/01-services/text-services-loans.png" class="img-fluid float-start banner-img" alt="Image">
+      </div>
+    </div>
+    
+    <div class="row"> <!-- image left, text right-->
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-1 img-container">
+        <img src="images/01-services/regular-loan.jpg" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-2 text-bg-1 d-flex align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-white text-padding">
+          <h2 class="text-futura">REGULAR LOANS</h2>
+          <h5 class="text-gotham">Company's loan eligibility will prevail</h5>
+          <ul class="text-start text-gotham">
+            <li>A type of loan for personal, family and household use.</li>
+            <ul>
+              <li>A new member can avail initial loan if he is at least three months as a member with corresponding loanable amount as follows:</li>
+              <ul>
+                <li>Initial loan of PhP1, 000.00 to be deducted for a maximum period of one (1) month</li>
+                <li>Second loan of PhP2, 000.00 to be deducted for a maximum period of two (2) months</li>
+                <li>Third loan of PhP3, 000.00 to be deducted for a maximum period of three (3) months</li>
+                <li>Maximum of 80% of the total paid up share for the succeeding loan</li>
+              </ul>
+              <li>Applicant must meet the required minimum take-home pay of 20% of gross pay per cut-off.</li>
+              <li>Applicant agrees to pay the applicable interest rate based on his / her chosen payment duration.</li>
+              <li>Payment Terms and Interest Rate:</li>
+              <ul>
+                <li>1-3 months  -  1.25% per month</li>
+                <li>4 months	-  1.50% per month</li>
+                <li>5 months	-	 1.75% per month</li>
+                <li>6 months	-	 2% per month</li>
+              </ul>
+              <li>Coop loans proceeds will be net of the above interest.</li>
+              <li>Monthly loan payment amount is equal to loan amount divided by number of months to pay. Amount of deduction per pay day is equivalent to 1/2 of monthly loan payment.</li>
+              <li>A regular member can only renew his/her loan if he/she has paid 50% of his/her existing loan.</li>
+              <li>For an associate member, loan can be renewed if he/she has a remaining three (3) loan deductions.</li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="row"> <!-- image right, text left-->
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-1 img-container">
+        <img src="images/01-services/educational-loan.jpg" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-2 text-bg-2 d-flex align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-style text-padding">
+          <h2 class="text-futura">EDUCATIONAL LOANS</h2>
+          <ul class="text-start text-gotham">
+            <li>Are loans for the purpose of Calamity (fortuitous events), Disasters and Hospitalization.</li>
+            <li>Loans should pass through all the BODs and requires at least three signatures.</li>
+            <li>Maximum loanable amount is PhP30, 000.00 regardless of Regular loan balance but still with the discretion of credit committee if salary is sufficient for deduction with 1.75% Interest per month</li>
+            <li>Payable within five (5) months with add on interest principle</li>
+            <li>Requirements to avail this loan are as follows:</li>
+            <ul class="text-start text-gotham">
+              <li>Assessment from School / School supplies.</li>
+              <li>If married or Single parent – loan applied should be for children</li>
+              <li>If single – loan applied should be for brother/sister</li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="row"> <!-- image left, text right-->
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-1 img-container">
+        <img src="images/01-services/emergency-loans.webp" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-2 text-bg-1 d-flex align-items-center text-center">
+        <div class="d-flex flex-column text-white text-style text-padding">
+          <h2 class="text-futura text-center">EMERGENCY LOANS</h2>
+          <ul class="text-start text-gotham">
+            <li>A loan for coop member who has children, brothers and sisters that goes to school.</li>
+            <li>Hospitalization:</li>
+            <ul class="text-start text-gotham">
+              <li>Maximum loanable amount is PhP30, 000.00</li>
+              <li>Interest rate is 1% per month maximum of 1 year to pay with add on interest principle</li>
+              <li>Only the immediate families are entitled to avail this particular loan</li>
+              <li>Immediate families are parents, spouse, children, brothers, and sisters</li>
+              <li>Requirement will be medical certificate or any hospital documents that will prove of patient’s hospitalization</li>
+              <li>If loan has been approved, the member is only allowed to apply for another loan provided that his/her total amount of loan is not more than his/her total capital share and the requirement of 20% take home pay must be met</li>
+            </ul>
+            <li>Calamity:</li>
+            <ul class="text-start text-gotham">
+              <li>Maximum loanable amount is PhP30, 000.00</li>
+              <li>Interest rate is 1% per month maximum of 1 year to pay with add on interest principle</li>
+              <li>Requirements to avail this loan are barangay clearance and pictures of damaged property</li>
+              <li>If loan has been approved, the member is only allowed to apply for another loan provided that his/her total amount of loan is not more than his/her total capital share and the requirement of 20% take home pay must be met</li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 banner-bg">
+        <img src="images/01-services/text-services-mannpower.png" class="img-fluid float-start banner-img" width=100% alt="Image">
+      </div>
+    </div>
+
+    <div class="row"> <!-- image right, text left-->
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-1 img-container">
+        <img src="images/01-services/manpower.jpg" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-2 text-bg-2 d-flex align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-style text-padding">
+          <h2 class="text-futura">MANPOWER SERVICES</h2>
+          <p>We handle the recruitment, screening, training, and payroll of the workers. We supply manpower for the online business of Hen Mei Lee. We also supply beauty consultants and warehouse personnel of Ever Bilena Cosmetics Inc.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 banner-bg">
+        <img src="images/01-services/text-service-merchandising.png" class="img-fluid float-start banner-img" alt="Image">
+      </div>
+    </div>
+
+    <div class="row"> <!-- image left, text right-->
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-1 img-container">
+        <img src="images/01-services/merchandising.jpg" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-2 text-bg-1 d-flex align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-white text-style text-padding">
+          <h2 class="text-futura">MERCHANDISING</h2>
+          <p>We also handle merchandising for various local brands and companies. We promote their products to our employees and give them discounts and bonuses exclusive to employees of DSSEMPC and its associates.</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-white mg">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-md-4 footer-column text-center">
+          <h5>QUICK LINKS</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="01-services.html">Services</a>
+            </li>
+            <li>
+              <a href="08-contact-us.html">Contact Us</a>
+            </li>
+            <li>
+              <a href="06-busines-opportunities.html">Business Opportunities</a>
+            </li>
+            <li>
+              <a href="07-csr.html">CSR</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 footer-column text-center">
+          <h5>WHO WE ARE</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="02-company-profile.html">About Us</a>
+            </li>
+            <li>
+              <a href="03-history.html">Our History</a>
+            </li>
+            <li>
+              <a href="04-officers-staff.html">Officers & Staffs</a>
+            </li>
+            <li>
+              <a href="05-awards-recognitions.html">Awards & Recognitions</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 footer-column text-center">
+          <h5>FOLLOW US</h5>
+          <a href="https://www.facebook.com/dsscooperative.cooperative"><img src="images/facebook.PNG" alt="Small Image" style="border-radius: 50%;"></a>
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col-12">
+          <p class="text-center">For queries & business opportunities, contact us at jennifer.dsscoop@gmail.com</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-md-right text-center mt-3 mt-md-0">
+          <p style="font-size: 0.8rem;">&copy; DSS Employees' Multi-Purpose Cooperative</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  
+  <!-- Custom JS -->
+  <!-- If may JS file kayo na sarili, lagay niyo na pangalan "script-page-name-optionalname.js" -->
+  
+</body>
+</html>

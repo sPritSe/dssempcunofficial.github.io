@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Officers & Staffs</title> <!--Title ng page, don't forget na baguhin to-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles-header-footer.css" rel="stylesheet">
+  <!-- #2E75A3 -->
+  <style>
+    /* Custom Fonts */
+    @font-face {
+    font-family: 'Futura Bold';
+    src: url('fonts/Futura-Bold.woff2') format('woff2'),
+      url('fonts/Futura-Bold.woff') format('woff'),
+      url('fonts/Futura-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    .img-container {
+      margin: 0;
+      padding: 0;
+    }
+    .img-content {
+      height:auto;
+      width:50%;
+      object-fit: contain;
+      margin: 0;
+      padding: 0;
+    }
+    .text-bg-1 {
+      background-color: #2E75A3;
+    }
+    .text-bg-2 {
+      background-color: #7fbce6;
+    }
+    .text-futura {
+      font-family: 'Futura Bold' sans-serif;
+    }
+    .text-gotham {
+      font-family: 'Gotham Book' sans-serif;
+    }
+    .text-padding {
+      padding: 20px;
+    }
+
+
+    /* Responsiveness Styles */
+    @media (min-width: 576px) { /* Small to large screens */
+      .banner-img {
+        width: 100%
+      }
+    }
+
+    @media (min-width: 576px) { /* Medium to XXL screens */
+      .banner-img {
+        width: 100%
+      }
+    }
+
+    @media (min-width: 1200px) { /* Large to XXL screens) */
+      .banner-img {
+        width: 60%
+      }
+    }
+
+    /* Other Styles */
+    .banner-bg {
+      background-color: black;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg custom-header navbar-dark sticky-top">
+    <div class="container header-content">
+      <div class="navbar-brand header-logo">
+        <a href="00-home.html">
+          <img src="images/logo-small.png" height="50px" width="auto" class="large-logo d-none d-sm-inline" alt="Large Logo">
+          <img src="images/logo-smaller.png" height="50px" width="auto" class="small-logo d-inline d-sm-none" alt="Small Logo">
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse header-navbar" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="00-home.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="01-services.html">SERVICES</a>
+          </li>
+          <li class="nav-item dropdown" id="navbarDropdown" data-bs-auto-close="outside">
+            <a class="nav-link dropdown-toggle" href="02-company-profile.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              ABOUT US
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="02-company-profile.html">COMPANY PROFILE</a>
+              <a class="dropdown-item" href="03-history.html">OUR HISTORY</a>
+              <a class="dropdown-item" href="04-officers-staff.html">OFFICERS & STAFFS</a>
+              <a class="dropdown-item" href="05-awards-recognitions.html">AWARDS & RECOGNITIONS</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="06-busines-opportunities.html">BUSINESS OPPORTUNITIES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="07-csr.html">CSR</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="08-contact-us.html">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container-fluid">
+    <div class="row">
+      <div class="col-12 banner-bg">
+        <img src="images\04-officers-staff\text-officers-directors.png" class="img-fluid float-start banner-img" alt="Image">
+      </div>
+    </div>
+    
+    <div class="row"> <!-- image left, text right-->
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-1 img-container">
+        <img src="images\04-officers-staff\Chairperson-Thelma-Salazar.PNG" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-2 text-bg-1 d-flex justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-white text-padding text-center">
+          <h2 class="text-futura text-center">CHAIRPERSON</h2>
+          <h3 class="text-futura text-center">Thelma Salazar</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row"> <!-- image right, text left-->
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-1 img-container">
+        <img src="images\04-officers-staff\Vice Chairperson-Marina-Mercado.PNG" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-2 text-bg-2 d-flex justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-style text-padding">
+          <h2 class="text-futura text-center">VICE CHAIRPERSON</h2>
+          <h3 class="text-futura text-center">Marina Mercado</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row"> <!-- image left, text right-->
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-1 img-container">
+        <img src="images\04-officers-staff\Board Secretary - Luisa - De Guzman.PNG" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-2 text-bg-1 d-flex justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-white text-padding">
+          <h2 class="text-futura text-center">BOARD SECRETARY</h2>
+          <h3 class="text-futura text-center">luiza De Guzman</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row"> <!-- image right, text left-->
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-1 img-container">
+        <img src="images\04-officers-staff\Board Member - Marlone - Corrales.PNG" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-2 text-bg-2 d-flex justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-style text-padding">
+          <h2 class="text-futura text-center">BOARD MEMBER</h2>
+          <h3 class="text-futura text-center">Marlone Corrales</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row"> <!-- image left, text right-->
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-1 img-container">
+        <img src="images\04-officers-staff\Board Member- Ma Corazon-Rocha.PNG" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-2 text-bg-1 d-flex justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-white text-padding">
+          <h2 class="text-futura text-center">BOARD MEMBER</h2>
+          <h3 class="text-futura text-center">Ma. Corazon Rocha</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row"> <!-- image right, text left-->
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-1 img-container">
+        <img src="images\04-officers-staff\Secretarial-Zaireen-Santillan (1).PNG" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-2 text-bg-2 d-flex justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-style text-padding">
+          <h2 class="text-futura text-center">SECRETARY</h2>
+          <h3 class="text-futura text-center">Zaireen Santillan</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row"> <!-- image left, text right-->
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-1 img-container">
+        <img src="images\04-officers-staff\Treasure-Ann Marie-Dejos.PNG" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-2 text-bg-1 d-flex justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-white text-padding">
+          <h2 class="text-futura text-center">TREASURER</h2>
+          <h3 class="text-futura text-center">Ann Marie Dejos</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 banner-bg">
+        <img src="images\04-officers-staff\text-officer-election.png" class="img-fluid float-start banner-img" alt="Image">
+      </div>
+    </div>
+    
+    <div class="row"> <!-- image right, text left-->
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-1 img-container">
+        <img src="images\04-officers-staff\Election Comitee-Eden-Mante.PNG" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-2 text-bg-2 d-flex justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-style text-padding">
+          <h2 class="text-futura text-center">ELECTION COMMITTEE</h2>
+          <h3 class="text-futura text-center">Eden Mante</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row"> <!-- image left, text right-->
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-1 img-container">
+        <img src="images\04-officers-staff\Election Comitee-Mary Grace-Alfaro.PNG" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-2 text-bg-1 d-flex justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-white text-padding">
+          <h2 class="text-futura text-center">ELECTION COMMITTEE</h2>
+          <h3 class="text-futura text-center">Mary Grace Alfaro</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row"> <!-- image right, text left-->
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-1 img-container">
+        <img src="images\04-officers-staff\Election Comitee-Wilma-Flores.PNG" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-2 text-bg-2 d-flex justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-style text-padding">
+          <h2 class="text-futura text-center">ELECTION COMMITTEE</h2>
+          <h3 class="text-futura text-center">Wilma Flores</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 banner-bg">
+        <img src="images\04-officers-staff\text-officer-audit.png" class="img-fluid float-start banner-img" alt="Image">
+      </div>
+    </div>
+    
+    <div class="row"> <!-- image left, text right-->
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-1 img-container">
+        <img src="images\04-officers-staff\Audit Comitee-Cherry-Anasco.PNG" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-2 text-bg-1 d-flex justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-white text-padding">
+          <h2 class="text-futura text-center">AUDIT COMMITTEE</h2>
+          <h3 class="text-futura text-center">Cherry Anasco</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row"> <!-- image right, text left-->
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-1 img-container">
+        <img src="images\04-officers-staff\Audit Commitee-Maritess-Mariano.PNG" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-2 text-bg-2 d-flex justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-style text-padding">
+          <h2 class="text-futura text-center">AUDIT COMMITTEE</h2>
+          <h3 class="text-futura text-center">Maritess Mariano</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row"> <!-- image left, text right-->
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-1 img-container">
+        <img src="images\04-officers-staff\Audit Committee-Marlon-Almario.PNG" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-2 text-bg-1 d-flex justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-white text-padding">
+          <h2 class="text-futura text-center">AUDIT COMMITTEE</h2>
+          <h3 class="text-futura text-center">Marlon Almario</h3>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-12 banner-bg">
+        <img src="images\04-officers-staff\text-officer-medcon.png" class="img-fluid float-start banner-img" alt="Image">
+      </div>
+    </div>
+    
+    <div class="row"> <!-- image right, text left-->
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-1 img-container">
+        <img src="images\04-officers-staff\Med Con Committee-Cristina-Marcelo.PNG" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-2 text-bg-2 d-flex justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-style text-padding">
+          <h2 class="text-futura text-center">MEDCON COMMITTEE</h2>
+          <h3 class="text-futura text-center">Cristina Marcelo</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row"> <!-- image left, text right-->
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-1 img-container">
+        <img src="images\04-officers-staff\Med Con Committee-Edward-Espejo (1).PNG" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-2 text-bg-1 d-flex justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-white text-padding">
+          <h2 class="text-futura text-center">MEDCON COMMITTEE</h2>
+          <h3 class="text-futura text-center">Edward Espejo</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row"> <!-- image right, text left-->
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-1 img-container">
+        <img src="images\04-officers-staff\Med Con Committee-Marife-Bonifacio.PNG" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-2 text-bg-2 d-flex justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-style text-padding">
+          <h2 class="text-futura text-center">MEDCON COMMITTEE</h2>
+          <h3 class="text-futura text-center">Marife Bonifacio</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 banner-bg">
+        <img src="images\04-officers-staff\text-officer-credit.png" class="img-fluid float-start banner-img" alt="Image">
+      </div>
+    </div>
+    
+    <div class="row"> <!-- image left, text right-->
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-1 img-container">
+        <img src="images\04-officers-staff\Credit Committee-Roselyn-Escabillas.PNG" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-2 text-bg-1 d-flex justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-white text-padding">
+          <h2 class="text-futura text-center">CREDIT COMMITTEE</h2>
+          <h3 class="text-futura text-center">Roselyn Escabillas</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row"> <!-- image right, text left-->
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-1 img-container">
+        <img src="images\04-officers-staff\Credit Committee-Simplicio-Sancho.PNG" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-2 text-bg-2 d-flex justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-style text-padding">
+          <h2 class="text-futura text-center">CREDIT COMMITTEE</h2>
+          <h3 class="text-futura text-center">Simplicio Sancho</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row"> <!-- image left, text right-->
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-1 img-container">
+        <img src="images\04-officers-staff\Credit Committee-Venida-Concepcion.PNG" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-2 text-bg-1 d-flex justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-white text-padding ">
+          <h2 class="text-futura text-center">CREDIT COMMITTEE</h2>
+          <h3 class="text-futura text-center">Venida Concepcion</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 banner-bg">
+        <img src="images\04-officers-staff\text-officers-gad.png" class="img-fluid float-start banner-img" alt="Image">
+      </div>
+    </div>
+    
+    <div class="row"> <!-- image right, text left-->
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-1 img-container">
+        <img src="images\04-officers-staff\GAD Committee-Noel-Catalla.PNG" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-2 text-bg-2 d-flex justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-style text-padding">
+          <h2 class="text-futura text-center">GAD COMMITTEE</h2>
+          <h3 class="text-futura text-center">Noel Catalla</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row"> <!-- image left, text right-->
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-1 img-container">
+        <img src="images\04-officers-staff\GAD Committee-Retil-Quenano.PNG" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-2 text-bg-1 d-flex justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-white text-padding">
+          <h2 class="text-futura text-center">GAD COMMITTEE</h2>
+          <h3 class="text-futura text-center">Retil Quenano</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row"> <!-- image right, text left-->
+      <div class="col-lg-6 order-lg-2 col-md-12 order-md-1 img-container">
+        <img src="images\04-officers-staff\GAD Committee-Ronalyn-Castro.PNG" class="img-fluid w-100 img-content" alt="Image">
+      </div>
+      <div class="col-lg-6 order-lg-1 col-md-12 order-md-2 text-bg-2 d-flex justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column align-items-center text-style text-padding">
+          <h2 class="text-futura text-center">GAD COMMITTEE</h2>
+          <h3 class="text-futura text-center">Ronalyn Castro</h3>
+        </div>
+      </div>
+    </div>
+
+
+  <!-- Footer -->
+  <footer class="text-white mg">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-md-4 footer-column text-center">
+          <h5>QUICK LINKS</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="01-services.html">Services</a>
+            </li>
+            <li>
+              <a href="08-contact-us.html">Contact Us</a>
+            </li>
+            <li>
+              <a href="06-busines-opportunities.html">Business Opportunities</a>
+            </li>
+            <li>
+              <a href="07-csr.html">CSR</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 footer-column text-center">
+          <h5>WHO WE ARE</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="02-company-profile.html">About Us</a>
+            </li>
+            <li>
+              <a href="03-history.html">Our History</a>
+            </li>
+            <li>
+              <a href="04-officers-staff.html">Officers & Staffs</a>
+            </li>
+            <li>
+              <a href="05-awards-recognitions.html">Awards & Recognitions</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 footer-column text-center">
+          <h5>FOLLOW US</h5>
+          <a href="https://www.facebook.com/dsscooperative.cooperative"><img src="images/facebook.PNG" alt="Small Image" style="border-radius: 50%;"></a>
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col-12">
+          <p class="text-center">For queries & business opportunities, contact us at jennifer.dsscoop@gmail.com</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-md-right text-center mt-3 mt-md-0">
+          <p style="font-size: 0.8rem;">&copy; DSS Employees' Multi-Purpose Cooperative</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  
+  <!-- Custom JS -->
+  <!-- If may JS file kayo na sarili, lagay niyo na pangalan "script-page-name-optionalname.js" -->
+  
+</body>
+</html>

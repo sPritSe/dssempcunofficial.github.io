@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our History</title> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles-header-footer.css" rel="stylesheet"> 
+
+  <style>
+    body {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    header {
+      background-color: rgb(6, 4, 118);
+      background-size: cover;
+    }
+    .banner {
+      padding-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      height: 500px;
+    }
+    #bigtext {
+      font-size: 60px;
+      font-weight: bold;
+    }
+    .banner p {
+      grid-column: 2/4;
+      font-size: 20px;
+      color: rgb(255, 255, 255);
+    }
+    .banner a {
+      grid-column: 2/4;
+      text-decoration: none;
+      background-color: #071169;
+      display: flex;
+      align-self: center;
+      justify-self: flex-start;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 16px;
+      color: white;
+    }
+    .banner a:hover {
+      background-color: rgb(45, 153, 177);
+    }
+    .content {
+      color: #230d61;
+    }
+    #comp1 {
+      padding-top: 50px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+     
+    }
+    #comp1 img {
+      background-color: rgb(190, 188, 188);
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      margin-right: 50px;
+      border-radius: 16px;
+      border: 6px solid #2E75A3;
+      box-shadow: 5px 5px 10px #3420ebab;
+    }
+    #comp1 .maintxt {
+      font-size: 20px;
+    }
+    .comp3 {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-inline: 20px;
+      text-align: left;
+    }
+    .comp3 .maintxt {
+      font-size: 20px;
+      color: #080355;
+    }
+    .missions {
+      display: flex;
+      flex-direction: column;
+    }
+    .missions .bottom {
+      margin-top: 20px;
+    }
+    .footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #0d1c72;
+      color: white;
+      padding: 20px;
+    }
+    @media screen and (max-width: 600px) {
+      .banner {
+        padding-top: 50px;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+      }
+      #bigtext {
+        font-size: 26px;
+      }
+      .banner p {
+        font-size: 12px;
+        color: white;
+      }
+      .banner a {
+        padding: 10px 20px;
+        font-size: 12px;
+      }
+      #comp1 {
+        flex-direction: column;
+        margin-inline: 20px;
+      }
+      #comp1 img {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+      #comp1 .maintxt {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg custom-header navbar-dark sticky-top">
+    <div class="container header-content">
+      <a class="navbar-brand header-logo" href="00-home.html">
+        <img src="images/logo-small.PNG" height="50" alt="Large Logo" class="large-logo d-none d-sm-inline">
+        <img src="images/logo-smaller.PNG" height="50" alt="Small Logo" class="small-logo d-inline d-sm-none">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse header-navbar" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="00-home.html">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="01-services.html">SERVICES</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="02-company-profile.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="02-company-profile.html">COMPANY PROFILE</a>
+              <a class="dropdown-item" href="03-history.html">OUR HISTORY</a>
+              <a class="dropdown-item" href="04-officers-staff.html">OFFICERS & STAFF</a>
+              <a class="dropdown-item" href="05-awards-recognitions.html">AWARDS & RECOGNITIONS</a>
+            </div>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="06-business-opportunities.html">BUSINESS OPPORTUNITIES</a></li>
+          <li class="nav-item"><a class="nav-link" href="07-csr.html">CSR</a></li>
+          <li class="nav-item"><a class="nav-link" href="08-contact-us">CONTACT US</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div class="banner">
+      <p>
+        <span id="bigtext">Our History and Mission.</span><br><br>
+        Join us on this journey as we continue to prioritize customer satisfaction and the professional growth of our team.
+        
+      </p>
+      
+    </div>
+    
+  </header>
+
+  <div class="content">
+    <div id="comp1">
+      <img src="images/isabel/logo.jpg" alt="Company Logo">
+      <div class="maintxt">
+        <h1> &nbsp; &nbsp;&nbsp; OUR HISTORY.</h1> <br> <br>
+       
+        <p>
+          &nbsp; In the early part of the 21st century, “paluwagan” which is considered a Filipino tradition of rotating common savings and credit among members of a group, became a common practice among the employees of DSS Productmakers, Inc.
+          <br><br>
+          Sometime in January 2004, these employees decided to expand the “paluwagan” practice to a bigger scale and invited more employees that later formed the DSS Employees’ Multi-purpose Cooperative (DEMPC) with the end in view of affording themselves the opportunity to earn additional income from their common savings and credit.
+          <br><br>
+          On 3 August 2008, DEMPC entered into Service Agreements with PhilWeb Corporation and BigGame, Inc. for the latter’s manpower requirements which now constitute about eleven (11%) percent of its total manpower pool.
+          <br><br>
+          To date, DEMPC’s manpower pool includes beauty consultants, production workers, warehouse helpers, drivers and helpers, merchandisers, office machine operators, and the like. Currently, it has a talent pool of more than 1,800 members and is fully equipped with an efficient computerized payroll system.
+          <br><br>
+          In the middle of the year 2004, the DEMPC’s first set of Board of Directors initiated the conversion of the cooperative from a simple common savings and credit association into a full-service manpower provider.
+          <br><br>
+         
+        </div>
+        
+    </div>
+  </div>
+   <footer class="text-white mt-5 mg">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-md-4 footer-column text-center">
+          <h5>QUICK LINKS</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="01-services.html">Services</a>
+            </li>
+            <li>
+              <a href="08-contact-us">Contact Us</a>
+            </li>
+            <li>
+              <a href="06-busines-opportunities.html">Business Opportunities</a>
+            </li>
+            <li>
+              <a href="07-csr.html">CSR</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 footer-column text-center">
+          <h5>WHO WE ARE</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="02-company-profile.html">About Us</a>
+            </li>
+            <li>
+              <a href="03-history.html">Our History</a>
+            </li>
+            <li>
+              <a href="04-officers-staff.html">Officers & Staffs</a>
+            </li>
+            <li>
+              <a href="05-awards-recognitions.html">Awards & Recognitions</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 footer-column text-center">
+          <h5>FOLLOW US</h5>
+          <a href="https://www.facebook.com/dsscooperative.cooperative"><img src="images/facebook.PNG" alt="Small Image" style="border-radius: 50%;"></a>
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col-12">
+          <p class="text-center">For queries & business opportunities, contact us at jennifer.dsscoop@gmail.com</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-md-right text-center mt-3 mt-md-0">
+          <p style="font-size: 0.8rem;">&copy; DSS Employees' Multi-Purpose Cooperative</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  
+  <!-- Custom JS -->
+  
+  
+</body>
+</html>
